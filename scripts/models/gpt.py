@@ -1,11 +1,9 @@
 from openai import OpenAI
-import os
-from dotenv import load_dotenv
+
 
 # Load the environment variables
-load_dotenv()
 
-client = OpenAI()
+client = OpenAI(api_key="-")
 
 MODEL_NAME = "gpt-4o"
 

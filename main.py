@@ -2,11 +2,10 @@ import logging
 import os
 from pyswip import Prolog
 import re
-from scripts.models import gemini, gpt
-from dotenv import load_dotenv
+from scripts.models import gpt
+
 
 # Load the environment variables
-load_dotenv()
 
 # Create the prolog interface
 prolog = Prolog()
